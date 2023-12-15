@@ -1,0 +1,107 @@
+.card__descrição__desafio {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    
+}
+
+.card__botões__desafio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões__desafio {
+    display: flex;
+    align-items: center;
+}
+
+.card__desafio {
+    background: var(--branco);
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.descrição__titulo__desafio {
+    color: var(--laranja);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.descrição__titulo-livre__desafio {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+.descrição__texto__desafio {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.botões__item__desafio {
+    margin: 0 0.5em;
+}
+
+.botões__ancora__desafio {
+    background-color: var(--laranja);
+    padding: 1em 2.7em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;    
+    height: 15px;
+}
+
+@media screen and (min-width: 1024px){
+
+    
+        .card__desafio {
+            width: 40%;
+            margin: 2em auto;
+            display: block;
+        }
+
+        .descrição__texto__desafio {
+            font-size: 18px;
+        }
+
+        .descrição__titulo-livre__desafio {
+            font-size: 24px;
+        }
+
+        .descrição__titulo__desafio {
+            font-size: 26px;
+        }
+}
+
+@media screen and (min-width: 1728) {
+            .descrição__titulo__desafio {
+                font-size: 32px;
+                padding: 1em;
+            }
+    
+            .carrossel__container {
+                display: flex;
+                margin: 2em 15vw 2em 15vw;
+                align-items: center;
+            }
+    
+            .swiper-pagination {
+                margin: 1em 0;
+            }
+    
+            .swiper {
+                width: 50%;
+            }
+    
+            .card__desafio {
+                margin: 3em 0 0 0;
+                width: 60%;
+                transform: scale(0.8);
+            }
+    
+}
